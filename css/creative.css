@@ -279,9 +279,9 @@ header .header-content .header-content-inner p {
   padding-left: 0;
 }
 .btn-default {
-  color: #222222;
+  color: #008b8b;
   background-color: #ffffff;
-  border-color: #ffffff;
+  border-color: #008b8b;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -292,9 +292,9 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #222222;
-  background-color: #008080;
-  border-color: #008080;
+  color: #ffffff;
+  background-color: #007070;
+  border-color: #006060;
 }
 .btn-default:active,
 .btn-default.active,
@@ -404,4 +404,8 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+.img-responsive-overwrite{
+    margin: 0 auto;
 }
